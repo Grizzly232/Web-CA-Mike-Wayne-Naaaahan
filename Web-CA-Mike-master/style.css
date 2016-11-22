@@ -1,0 +1,157 @@
+html{
+	background-color: #fcf4e5;
+}
+
+#page {
+	margin-left: 20%;
+	margin-right: 20%;
+	border: .1em solid black;
+}
+
+header {
+	background-image: url("images/festivities2.jpg");
+	border-bottom: .1em solid black;
+}
+
+#content {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	padding: 2%;
+}
+
+#content img {
+	width: 20em;
+	height: 15em;
+	float: left;
+	padding: 2%;
+}
+
+#content h1{
+	margin-top: 10%;
+	text-align: center;
+}
+
+#religionDropdown {
+	
+}
+
+nav a {
+	text-decoration: none;
+}
+
+#sidebar {
+	border: .3em solid #fcf4e5;
+	border-style: inset;
+	float: left;
+	position: fixed;
+	top: 5%;
+	padding: .5em;
+	left: 3%;
+	background-color: #EBDEC5;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#sidebar a {
+	text-decoration: none;
+}
+
+#sidebar a:hover {
+	color: #C93030;
+	text-decoration: underline;
+}
+
+#sidebar li {
+	margin-top: .2em;
+}
+
+.navButton {
+	background-color: red;
+	float: left;
+	border: .1em solid black;
+	display: inline;
+	width: 10em;
+	height: 2.5em;
+	text-align: center;
+	line-height: 2.5em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #ffffff;
+	background-color: #bc2f2f;
+	text-decoration: none;
+	font-weight: bold;
+}
+	
+nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+nav li {
+	display:inline-block;
+	float: left;
+	margin-right: .1em;
+}
+
+nav li a {
+	background-color: red;
+	float: left;
+	border: .1em solid black;
+	display: inline;
+	width: 10em;
+	height: 2.5em;
+	text-align: center;
+	line-height: 2.5em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #ffffff;
+	background-color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.navButton:hover {
+	background-color: #DB3737;
+}
+
+#page {
+	margin-left: 20%;
+	margin-right: 20%;
+	border: .1em solid black;
+}
+
+nav li:hover ul a {
+	background-color: #EBDEC5;
+	color: #bc2f2f;
+	height: 2.5em;
+	line-height: 2.5em;
+	text-align: center;	
+	border: .1em solid black;
+	padding-left: .5em;
+}
+
+nav li:hover ul a:hover {
+	background: #bc2f2f;
+	color: #fcf4e5;
+	text-decoration: underline;
+}
+
+nav li ul {
+	display: none;
+	position: absolute;
+	top: 32.7%;
+	z-index: 100;
+}
+
+nav li ul li {
+	display: block;
+	float: none;
+}
+
+nav li ul li a {
+	width: auto;
+	min-width: 9.5em;
+	padding: 0 0;
+}
+
+nav ul li a:hover + .hidden, .hidden:hover {
+	display: block;
+}
+
